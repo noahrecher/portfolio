@@ -1,6 +1,6 @@
 
 import profile from './profile.png';
-import { faAppStore, faGithub, faGooglePlay } from '@fortawesome/free-brands-svg-icons';
+import { faAppStore, faGithub, faLinkedin  } from '@fortawesome/free-brands-svg-icons';
 import { } from '@fortawesome/free-solid-svg-icons';
 
 export const navigation = {
@@ -17,10 +17,6 @@ export const navigation = {
     {
       title: "Kontakt",
       link: "#contact",
-    },
-    {
-      title: "Links",
-      link: "/links",
     },
     {
       title: "Blog",
@@ -40,7 +36,7 @@ export const intro = {
     },
     {
       title: "Download CV",
-      link: "https://docs.google.com/document/d/13_PWdhThMr6roxb-UFiJj4YAFOj8e_bv3Vx9UHQdyBQ/edit?usp=sharing",
+      link: "https://drive.switch.ch/index.php/s/pOaIINBt151IJux",
       isPrimary: false,
     },
   ],
@@ -49,9 +45,24 @@ export const intro = {
 export const about = {
   title: "Über mich",
   description: [
-    "I graduated from National University of Sciences and Technology (NUST) in 2020 with a degree in Computer Engineering. I kick started my professional career as a mobile application developer working remotely for a UK based startup — Lessgo.",
-    "The tech industry is ever-evolving and I love being able to grow with it, while continually solidifying the fundamentals. I opensource my code from a place of empathy - for future developers, teammates, users, and with accessibility in mind. I also love joining communities, helping and mentoring new developers, and supporting organizations to promote diversity in tech. I’m sharing my programming journey on instagram, helping people who are just getting into the space of programming.",
-    "When I’m not programming, I focus on my hobbies which are: diary writing, doodling, meeting people and growing my network.",
+    "Ich bin Noah, 26 Jahre alt und derzeit Student im Bachelor-Studiengang Data Science an der FHNW in Brugg. Die Welt der Daten fasziniert mich ungemein, und meine Begeisterung für dieses Thema treibt mich jeden Tag an, mein Wissen zu vertiefen und neue Fähigkeiten zu entwickeln. Durch mein Studium habe ich bereits umfassende Kenntnisse in den Bereichen Datenverarbeitung, Datenanalyse, Statistik und maschinelles Lernen erworben. In verschiedenen Projekten konnte ich mein theoretisches Wissen in die Praxis umsetzen und wertvolle Erfahrungen sammeln, die mich bestens auf die Herausforderungen in der Welt der Datenwissenschaft vorbereiten.",
+    "Neben der intensiven Auseinandersetzung mit Daten ist der Sport für mich ein wichtiger Ausgleich. Ob beim Mountainbiken, Bouldern oder Paddeln – Sport bringt mir nicht nur viel Freude, sondern stärkt auch meinen Teamgeist und meine Resilienz. Diese Eigenschaften sind für mich nicht nur im Sport, sondern auch in meiner beruflichen Entwicklung von großer Bedeutung.",
+  ],
+}
+
+export const work = {
+  title: "What I do",
+  cards: [
+    {
+      title: "Mobile App Development",
+      description: "I create pixel perfect iOS and Andriod apps using Flutter.",
+      icons: null,
+    },
+    {
+      title: "Web Development",
+      description: "I create responsive static websites using Reactjs.",
+      icons: null,
+    }
   ],
 }
 
@@ -60,31 +71,61 @@ export const projects = {
   cards: [
     {
       title: "Steinschlagrisiko",
-      description: "A digital diary and mood tracking app that helps you in keeping track of your mood and productivity throughout the month/year.",
+      description: "Dieses Projekt analysierte das Risiko von Steinschlägen auf einer Kantonsstraße in Graubünden. Über drei Monate hinweg wurden Daten wie Masse und Geschwindigkeit zu Steinschlägen erfasst. Auf dieser Basis wurde ein Modell entwickelt, das die Wahrscheinlichkeit eines fatalen Unfalls innerhalb eines Jahres abschätzen soll.",
       icons: [
         {
           icon: faGithub,
-          link: "https://github.com/hashirshoaeb/star_book",
+          link: "https://github.com/noahrecher",
         },
       ]
     },
     {
-      title: "Abfallsammlungen",
-      description: "An emotional well being and mental health app. The app helps people to navigate their emotions in the light of the Quran.",
+      title: "CO₂-Verhalten in Innenräumen",
+      description: "In diesem Projekt wurde untersucht, wie Faktoren wie Raumgröße, Pflanzen, Temperatur sowie Lüften den CO2-Gehalt in Innenräumen beeinflussen. Mithilfe eines selbstgebauten Messgeräts wurden über Monate Temperatur, Luftfeuchtigkeit und CO2-Werte erfasst und analysiert.",
       icons: [
         {
           icon: faGithub,
-          link: "https://github.com/hashirshoaeb/portfolio",
+          link: "https://github.com/noahrecher",
         },
       ]
     },
     {
-      title: "Smart Classroom",
-      description: "A portfolio website template that helps you showcase your work, projects and skills as a software developer or freelancer.",
+      title: "Videobasiertes Tennistraining",
+      description: "In diesem Projekt wurden mithilfe von 3D-Kameras Tennisspielsequenzen aufgenommen und das Bewegungsverhalten der Spieler analysiert. Das Ziel war es, Stärken, Schwächen und Verhaltensmuster der Spieler zu identifizieren. Ein wesentlicher Teil des Projekts bestand im Feature Engineering, da die Rohdaten lediglich aus Koordinaten und Geschwindigkeiten bestanden und keine Informationen zu den Spielsequenzen selbst enthielten.",
       icons: [
         {
           icon: faGithub,
-          link: "https://github.com/hashirshoaeb/portfolio",
+          link: "https://github.com/noahrecher",
+        },
+      ]
+    },
+    {
+      title: "Optimierung von Abfallsammlung in Gemeinden",
+      description: "Das Projekt entwickelte ein Modell zur Vorhersage des Fremdstoffanteils in Grünabfallbehältern, um die Verwertungseffizienz zu steigern. Basierend auf Koordinaten wurden die Container Gebäuden und Wohnungen zugeordnet, was eine Modellierung mithilfe demografischer Daten ermöglichte. So entstand ein Modell zur Vorhersage des Fremdstoffanteils in Grünabfallbehältern, unterstützt durch ein Dashboard und eine Datenbank zur einfachen Skalierung auf weitere Gemeinden.",
+      icons: [
+        {
+          icon: faGithub,
+          link: "https://github.com/noahrecher",
+        },
+      ]
+    },
+    {
+      title: "Optimierung von Elektrizitätsnetzen",
+      description: "Dieses Projekt zielte darauf ab, den Stromverbrauch und die Stromeinspeisung durch Solarzellen in zwei Ortschaften anhand von Faktoren wie Wetter und Infrastruktur vorherzusagen, um eine kurzfristige Netzlastplanung zu ermöglichen. Die Grundlage dafür bildeten Smartmeter-Daten aus mehreren Quartieren.",
+      icons: [
+        {
+          icon: faGithub,
+          link: "https://github.com/noahrecher",
+        },
+      ]
+    },
+    {
+      title: "Bachelor Arbeit",
+      description: "TBD",
+      icons: [
+        {
+          icon: faGithub,
+          link: "https://github.com/noahrecher",
         },
       ]
     },
@@ -93,10 +134,10 @@ export const projects = {
 
 export const contact = {
   title: "Kontaktieren Sie mich",
-  description: "Zögern Sie nicht, mich bei Fragen oder Rückmeldungen direkt per E-Mail unter hashirshoaeb@gmail.com zu kontaktieren.",
+  description: "Zögern Sie nicht, mich bei Fragen oder Rückmeldungen direkt per E-Mail unter noah.recher@students.fhnw.ch zu kontaktieren.",
   buttons: [
     {
-      title: "Email",
+      title: "E-Mail",
       link: "mailto:noah.recher@students.fhnw.ch",
       isPrimary: true,
     },
