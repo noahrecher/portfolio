@@ -4,18 +4,18 @@ import { faAppStore, faGithub, faGooglePlay } from '@fortawesome/free-brands-svg
 import { } from '@fortawesome/free-solid-svg-icons';
 
 export const navigation = {
-  name: "Hashir",
+  name: "Noah",
   links: [
     {
-      title: "About",
+      title: "Über mich",
       link: "#about",
     },
     {
-      title: "Projects",
+      title: "Projekte",
       link: "#projects",
     },
     {
-      title: "Contact",
+      title: "Kontakt",
       link: "#contact",
     },
     {
@@ -24,22 +24,22 @@ export const navigation = {
     },
     {
       title: "Blog",
-      link: "https://medium.com/@hashirshoaeb",
+      link: "https://medium.com/@noah.recher",
     }
   ],
 }
 export const intro = {
-  title: "Hey, I'm Hashir",
-  description: "A Computer Engineer creating mobile apps and static websites.",
+  title: "Hallo, ich bin Noah",
+  description: "Entdecken Sie mein Portfolio.",
   image: profile.src,
   buttons: [
     {
-      title: "Contact Me",
+      title: "Kontakt",
       link: "#contact",
       isPrimary: true,
     },
     {
-      title: "Resume",
+      title: "Download CV",
       link: "https://docs.google.com/document/d/13_PWdhThMr6roxb-UFiJj4YAFOj8e_bv3Vx9UHQdyBQ/edit?usp=sharing",
       isPrimary: false,
     },
@@ -47,7 +47,7 @@ export const intro = {
 }
 
 export const about = {
-  title: "Who I am",
+  title: "Über mich",
   description: [
     "I graduated from National University of Sciences and Technology (NUST) in 2020 with a degree in Computer Engineering. I kick started my professional career as a mobile application developer working remotely for a UK based startup — Lessgo.",
     "The tech industry is ever-evolving and I love being able to grow with it, while continually solidifying the fundamentals. I opensource my code from a place of empathy - for future developers, teammates, users, and with accessibility in mind. I also love joining communities, helping and mentoring new developers, and supporting organizations to promote diversity in tech. I’m sharing my programming journey on instagram, helping people who are just getting into the space of programming.",
@@ -55,33 +55,13 @@ export const about = {
   ],
 }
 
-export const work = {
-  title: "What I do",
-  cards: [
-    {
-      title: "Mobile App Development",
-      description: "I create pixel perfect iOS and Andriod apps using Flutter.",
-      icons: null,
-    },
-    {
-      title: "Web Development",
-      description: "I create responsive static websites using Reactjs.",
-      icons: null,
-    }
-  ],
-}
-
 export const projects = {
-  title: "Projects",
+  title: "Projekte",
   cards: [
     {
-      title: "StarBook",
+      title: "Steinschlagrisiko",
       description: "A digital diary and mood tracking app that helps you in keeping track of your mood and productivity throughout the month/year.",
       icons: [
-        {
-          icon: faAppStore,
-          link: "https://apps.apple.com/us/app/starbook-journal-ai-diary/id1552418289",
-        },
         {
           icon: faGithub,
           link: "https://github.com/hashirshoaeb/star_book",
@@ -89,21 +69,17 @@ export const projects = {
       ]
     },
     {
-      title: "QuranTalk",
+      title: "Abfallsammlungen",
       description: "An emotional well being and mental health app. The app helps people to navigate their emotions in the light of the Quran.",
       icons: [
         {
-          icon: faAppStore,
-          link: "https://apps.apple.com/us/app/qurantalk/id1563425149",
-        },
-        {
-          icon: faGooglePlay,
-          link: "https://play.google.com/store/apps/details?id=com.ayahemotion.quran_talk",
+          icon: faGithub,
+          link: "https://github.com/hashirshoaeb/portfolio",
         },
       ]
     },
     {
-      title: "Portfolio",
+      title: "Smart Classroom",
       description: "A portfolio website template that helps you showcase your work, projects and skills as a software developer or freelancer.",
       icons: [
         {
@@ -116,18 +92,13 @@ export const projects = {
 }
 
 export const contact = {
-  title: "Get in touch",
-  description: "Coffee Chat! Please do not hesitate to schedule a meeting. Alternatively, feel free to reach out directly by email at hashirshoaeb@gmail.com.",
+  title: "Kontaktieren Sie mich",
+  description: "Zögern Sie nicht, mich bei Fragen oder Rückmeldungen direkt per E-Mail unter hashirshoaeb@gmail.com zu kontaktieren.",
   buttons: [
     {
-      title: "Email Me",
-      link: "mailto:hashirshoaeb@gmail.com",
+      title: "Email",
+      link: "mailto:noah.recher@students.fhnw.ch",
       isPrimary: true,
-    },
-    {
-      title: "Schedule Meeting",
-      link: "https://topmate.io/hashirshoaeb",
-      isPrimary: false,
     },
   ]
 }
@@ -135,35 +106,27 @@ export const contact = {
 // SEARCH ENGINE 
 export const SEO = {
   // 50 - 60 char  
-  title: "Hashir Shoaib | Computer Engineer | Flutter | Reactjs developer",
-  description: "I create mobile apps and static websites. I graduated from National University of Sciences and Technology (NUST) in 2020 with a degree in Computer Engineering.",
+  title: "Noah Recher | Data Science Student",
+  description: "",
   image: profile.src,
 }
 
 export const links = {
   image: profile.src,
-  title: "@hashirshoaeb",
-  description: "Computer Engineer | Flutter | Reactjs Developer",
+  title: "@noahrecher",
+  description: "Data Science Student",
   cards: [
     {
-      title: "My website",
-      link: "https://hashirshoaeb.com/",
+      title: "Webseite",
+      link: "https://noahrecher.github.io/portfolio/",
     },
     {
-      title: "QuranTalk App",
-      link: "https://www.qurantalk.app/",
+      title: "GitHub",
+      link: "https://github.com/noahrecher",
     },
     {
-      title: "StarBook App",
-      link: "https://starbook.dev/",
-    },
-    {
-      title: "My GitHub",
-      link: "https://github.com/hashirshoaeb/",
-    },
-    {
-      title: "My LinkedIn",
-      link: "https://www.linkedin.com/in/hashirshoaeb/",
+      title: "LinkedIn",
+      link: "https://www.linkedin.com/in/noah-recher-78487124b/",
     },
   ]
 }
