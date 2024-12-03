@@ -36,7 +36,7 @@ export const intro = {
     },
     {
       title: "Download CV",
-      link: "https://drive.switch.ch/index.php/s/pOaIINBt151IJux",
+      link: "https://drive.switch.ch/index.php/s/7hpJ1XxFtgQud8C",
       isPrimary: false,
     },
   ],
