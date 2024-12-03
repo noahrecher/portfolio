@@ -1,14 +1,12 @@
 {
   "name": "portfolio",
   "description": "A portfolio website template that helps you showcase your work, projects and skills as a software developer or freelancer.",
-  "homepage": "http://hashirshoaeb.com",
   "version": "0.2.0",
-  "license": "MIT",
   "private": true,
   "author": {
-    "name": "Hashir Shoaib",
-    "email": "hashirshoaeb@gmail.com",
-    "url": "https://github.com/hashirshoaeb"
+    "name": "Noah Recher",
+    "email": "noah.recher@students.fhnw.ch",
+    "url": "https://github.com/noahrecher"
   },
   "scripts": {
     "prebuild": "node scripts/favicons.js",
@@ -17,8 +15,8 @@
     "start": "next start",
     "export": "next export",
     "predeploy": "npm run build && npm run export && touch ./out/.nojekyll",
-    "deploy": "npm run custom-domain && node scripts/pages.js hashirshoaeb master",
-    "custom-domain": "node scripts/cname.js hashirshoaeb.com www.hashirshoaeb.com",
+    "deploy": "npm run custom-domain && node scripts/pages.js noahrecher master",
+    "custom-domain": "node scripts/cname.js noahrecher.com www.noahrecher.com",
     "lint": "next lint"
   },
   "dependencies": {
