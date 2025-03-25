@@ -1,6 +1,7 @@
 
 import profile from './profile.png';
 import { faAppStore, faGithub, faLinkedin  } from '@fortawesome/free-brands-svg-icons';
+import { faLock } from '@fortawesome/free-solid-svg-icons';
 import { } from '@fortawesome/free-solid-svg-icons';
 
 export const navigation = {
@@ -101,31 +102,31 @@ export const projects = {
     },
     {
       title: "Optimierung von Abfallsammlung in Gemeinden",
-      description: "Das Projekt entwickelte ein Modell zur Vorhersage des Fremdstoffanteils in Grünabfallbehältern, um die Verwertungseffizienz zu steigern. Basierend auf Koordinaten wurden die Container Gebäuden und Wohnungen zugeordnet, was eine Modellierung mithilfe demografischer Daten ermöglichte. So entstand ein Modell zur Vorhersage des Fremdstoffanteils in Grünabfallbehältern, unterstützt durch ein Dashboard und eine Datenbank zur einfachen Skalierung auf weitere Gemeinden.",
+      description: "Das Projekt entwickelte ein Modell zur Vorhersage des Fremdstoffanteils in Grünabfallbehältern, um die Verwertungseffizienz zu steigern. Basierend auf Koordinaten wurden die Container Gebäuden und Wohnungen zugeordnet, was eine Modellierung mithilfe demografischer Daten ermöglichte. So entstand ein Modell zur Vorhersage des Fremdstoffanteils in Grünabfallbehältern, unterstützt durch ein Dashboard und eine Datenbank zur einfachen Skalierung auf weitere Gemeinden. (NDAs unterliegend)",
       icons: [
         {
           icon: faLock,
-          label: "NDA",
+          link: "https://github.com/noahrecher/",
         },
       ]
     },
     {
       title: "Optimierung von Elektrizitätsnetzen",
-      description: "Dieses Projekt zielte darauf ab, den Stromverbrauch und die Stromeinspeisung durch Solarzellen in zwei Ortschaften anhand von Faktoren wie Wetter und Infrastruktur vorherzusagen, um eine kurzfristige Netzlastplanung zu ermöglichen. Die Grundlage dafür bildeten Smartmeter-Daten aus mehreren Quartieren.",
+      description: "Dieses Projekt zielte darauf ab, den Stromverbrauch und die Stromeinspeisung durch Solarzellen in zwei Ortschaften anhand von Faktoren wie Wetter und Infrastruktur vorherzusagen, um eine kurzfristige Netzlastplanung zu ermöglichen. Die Grundlage dafür bildeten Smartmeter-Daten aus mehreren Quartieren. (NDAs unterliegend)",
       icons: [
         {
           icon: faLock,
-          label: "NDA",
+          link: "https://github.com/noahrecher/",
         },
       ]
     },
     {
       title: "Preismonitoring von Medizinalprodukten",
-      description: "In diesem Projekt wurde ein System zum Preismonitoring von Medizinalprodukten entwickelt, um den manuellen Aufwand bei der Konkurrenzpreisüberwachung zu minimieren. Mithilfe eines robusten, wartbaren Webscrapers werden Preisdaten automatisch erfasst, in einer Datenbank gespeichert und über ETL-Prozesse analysiert. Die anschließende Visualisierung der Preisentwicklungen unterstützt die Firma dabei, schnell auf Marktveränderungen zu reagieren und fundierte Entscheidungen zu treffen.",
+      description: "In diesem Projekt wurde ein System zum Preismonitoring von Medizinalprodukten entwickelt, um den manuellen Aufwand bei der Konkurrenzpreisüberwachung zu minimieren. Mithilfe eines robusten, wartbaren Webscrapers werden Preisdaten automatisch erfasst, in einer Datenbank gespeichert und über ETL-Prozesse analysiert. Die anschließende Visualisierung der Preisentwicklungen unterstützt die Firma dabei, schnell auf Marktveränderungen zu reagieren und fundierte Entscheidungen zu treffen. (NDAs unterliegend)",
       icons: [
         {
           icon: faLock,
-          label: "NDA",
+          link: "https://github.com/noahrecher/",
         },
       ]
     },
