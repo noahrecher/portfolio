@@ -75,17 +75,17 @@ export const projects = {
       icons: [
         {
           icon: faGithub,
-          link: "https://github.com/noahrecher",
+          link: "https://github.com/noahrecher/FHNW-Steinschlagrisiko",
         },
       ]
     },
     {
-      title: "CO₂-Verhalten in Innenräumen",
-      description: "In diesem Projekt wurde untersucht, wie Faktoren wie Raumgröße, Pflanzen, Temperatur sowie Lüften den CO2-Gehalt in Innenräumen beeinflussen. Mithilfe eines selbstgebauten Messgeräts wurden über Monate Temperatur, Luftfeuchtigkeit und CO2-Werte erfasst und analysiert.",
+      title: "Smart Classroom",
+      description: "Das Projekt untersuchte, wie unterschiedliche Lüftungsstrategien, Temperatur und der Einsatz von Zimmerpflanzen das Raumklima – insbesondere den CO₂-Gehalt und die Luftfeuchtigkeit – beeinflussen. Mithilfe eines selbst aufgebauten IoT-Systems, bestehend aus einem Mikrocontroller und einem Raspberry Pi, wurden kontinuierlich Messdaten erfasst und analysiert.",
       icons: [
         {
           icon: faGithub,
-          link: "https://github.com/noahrecher",
+          link: "https://github.com/noahrecher/FHNW-Smart_Classroom",
         },
       ]
     },
@@ -95,7 +95,7 @@ export const projects = {
       icons: [
         {
           icon: faGithub,
-          link: "https://github.com/noahrecher",
+          link: "https://github.com/noahrecher/FHNW-Videobasiertes_Tennistraining",
         },
       ]
     },
@@ -104,8 +104,8 @@ export const projects = {
       description: "Das Projekt entwickelte ein Modell zur Vorhersage des Fremdstoffanteils in Grünabfallbehältern, um die Verwertungseffizienz zu steigern. Basierend auf Koordinaten wurden die Container Gebäuden und Wohnungen zugeordnet, was eine Modellierung mithilfe demografischer Daten ermöglichte. So entstand ein Modell zur Vorhersage des Fremdstoffanteils in Grünabfallbehältern, unterstützt durch ein Dashboard und eine Datenbank zur einfachen Skalierung auf weitere Gemeinden.",
       icons: [
         {
-          icon: faGithub,
-          link: "https://github.com/noahrecher",
+          icon: faLock,
+          label: "NDA",
         },
       ]
     },
@@ -114,18 +114,18 @@ export const projects = {
       description: "Dieses Projekt zielte darauf ab, den Stromverbrauch und die Stromeinspeisung durch Solarzellen in zwei Ortschaften anhand von Faktoren wie Wetter und Infrastruktur vorherzusagen, um eine kurzfristige Netzlastplanung zu ermöglichen. Die Grundlage dafür bildeten Smartmeter-Daten aus mehreren Quartieren.",
       icons: [
         {
-          icon: faGithub,
-          link: "https://github.com/noahrecher",
+          icon: faLock,
+          label: "NDA",
         },
       ]
     },
     {
-      title: "Bachelor Arbeit",
-      description: "TBD",
+      title: "Preismonitoring von Medizinalprodukten",
+      description: "In diesem Projekt wurde ein System zum Preismonitoring von Medizinalprodukten entwickelt, um den manuellen Aufwand bei der Konkurrenzpreisüberwachung zu minimieren. Mithilfe eines robusten, wartbaren Webscrapers werden Preisdaten automatisch erfasst, in einer Datenbank gespeichert und über ETL-Prozesse analysiert. Die anschließende Visualisierung der Preisentwicklungen unterstützt die Firma dabei, schnell auf Marktveränderungen zu reagieren und fundierte Entscheidungen zu treffen.",
       icons: [
         {
-          icon: faGithub,
-          link: "https://github.com/noahrecher",
+          icon: faLock,
+          label: "NDA",
         },
       ]
     },
